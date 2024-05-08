@@ -1,0 +1,52 @@
+h3 {
+    color:#5988FF;
+    font-size: 25px;
+}
+p {
+    font-size: 18px;
+}
+h2 {
+    color:#5988FF;
+    font-size: 25px;
+}
+ul {
+    font-size: 20px;
+}
+
+.zagalovok {
+    display: flex;
+    align-items: center; 
+}
+.zagalovok img {
+    margin-right: 20px; 
+}
+.text {
+    font-size: 500%;
+    position: absolute;
+    left: 45%;
+}
+
+a.button {
+    font-size: 200%;
+}
+body {
+    background-color:  #FFFFFF; 
+    background-size: cover;
+}
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+h2:hover {
+    animation: color-change 3s infinite;
+  }
